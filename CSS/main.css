@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Pt Sans Narrow", Arial, sans-serif;
+    font-size: 14;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    background-color: blue;
+    background-image: url("img/background: .jpg;");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-navigation {
+    background-color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}\
+
+.site-navigation a,
+.user-navigation a; {
+    color: #ffffff;
+}
+
+.site-navigation a:hover;
+.site-navigation a:focus;
+.user-navigation a: hover;
+.user-navigation a:focus; {
+    background-color: #242424;
+}
+
+.feuchers-list {
+    list-style: none;
+    display: flex;
+}
+
+.feuchers-item {
+    text-align: center;
+}
+
+.feuchers-item h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.news-gallery {
+    background-color: #f7f4f1;
+    background-image: url("D:/Сайты/Project_Barbershop/img/bg-forbloks.jpg");
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+
+.news,
+.gallery {
+    color: #000000;
+}
+.news h2,
+.gallery h2,
+.contact h2,
+.appointment h2 {
+    font-size: 30px;
+    line-height: 42px
+
+}
+.news-list {
+    list-style: none;
+}
+
+.gallery-content {
+    /* background-color: #cccccc; */
+    border: 7px solid #ffffff;
+}
+.contact-appointment {
+    background-color: #f7f4f1;
+    background-color: #f7f4f1;
+    background-image: url("D:/Сайты/Project_Barbershop/img/bg-forbloks.jpg");
+    background-repeat: repeat;
+    background-position: 0 0;
+    color: #000000;
+}
+
+.appointment-item input {
+    background-color: transparent;
+    border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+    border-color: #5d4b39;
+}
+
+.main-foooter {
+    background-color: #232323
+    background-image: url("D:/Сайты/Project_Barbershop/img/bg-footer.jpg");
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
