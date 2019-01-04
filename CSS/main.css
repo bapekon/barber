@@ -47,10 +47,15 @@ a {
 .feuchers-list {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin: 0;
+    padding: 0;
 }
 
 .feuchers-item {
     text-align: center;
+    width: 300px;
 }
 
 .feuchers-item h3 {
@@ -63,8 +68,26 @@ a {
     background-image: url("D:/Сайты/Project_Barbershop/img/bg-forbloks.jpg");
     background-repeat: repeat;
     background-position: 0 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 80px;
+      margin-bottom: 35px;
 }
 
+.news {
+width: 350px;
+border: 1px solid black;
+
+}
+
+
+
+.gallery {
+    width: 300px;
+    /* text-align: left; */
+    border: 1px solid black;
+    /* padding-bottom: 0px; */
+}
 .news,
 .gallery {
     color: #000000;
@@ -79,14 +102,46 @@ a {
 }
 .news-list {
     list-style: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
+.news-list .button {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* padding-bottom: 0px; */
+    text-align: center;
+}
+.news-item,
+.news-list .button {
+    margin-left: -40px;
+}
+
+.news-item time {
+    text-transform: none;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.news-item p {
+margin-bottom: 5px;
+}
 .gallery-content {
     /* background-color: #cccccc; */
-    border: 7px solid #ffffff;
+    /* border: 7px solid #ffffff; */
+    margin-left: 0px;
+    width: 100%;
 }
+
+.gallery-content img {
+    background-color: #cccccc;
+    border: 7px solid #ffffff;
+    margin-left: 0px;
+    margin-bottom: 35px;
+}
+
 .contact-appointment {
-    background-color: #f7f4f1;
     background-color: #f7f4f1;
     background-image: url("D:/Сайты/Project_Barbershop/img/bg-forbloks.jpg");
     background-repeat: repeat;
@@ -110,7 +165,60 @@ a {
     background-position: 0 0;
 }
 
+.main-navigation-wrapper .container {
+    display: flex;
+}
 .container {
     width: 940px;
     margin: 0 auto;
 }
+.main-navigation-wrapper .container .site-navigation {
+    width: 540px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation li {
+    min-width: 100px;
+}
+.user-navigation {
+    width: 400px;
+    text-align: right;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+
+/* buttons and forms*/
+
+.button {
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 140px;
+    border: 0px;
+}
+
+.button-back {
+    float: left;
+}
+
+.button-next {
+    float: right;
+
+}
+/* .button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  border: none;
+} */
