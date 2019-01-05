@@ -76,16 +76,16 @@ a {
 
 .news {
 width: 350px;
-border: 1px solid black;
+/* border: 1px solid black; */
+padding-bottom: 0px;
 
 }
-
 
 
 .gallery {
     width: 300px;
     /* text-align: left; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* padding-bottom: 0px; */
 }
 .news,
@@ -113,6 +113,7 @@ border: 1px solid black;
     /* padding-bottom: 0px; */
     text-align: center;
 }
+
 .news-item,
 .news-list .button {
     margin-left: -40px;
@@ -141,17 +142,46 @@ margin-bottom: 5px;
     margin-bottom: 35px;
 }
 
+.appointment {
+    width: 300px;
+}
 .contact-appointment {
     background-color: #f7f4f1;
     background-image: url("D:/Сайты/Project_Barbershop/img/bg-forbloks.jpg");
     background-repeat: repeat;
     background-position: 0 0;
     color: #000000;
+    padding-top: 20px;
+    padding-left: 55px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    width: 325px;
+}
+
+
+}
+.appointment-item input {
+    /* background-color: transparent;
+    border: 2px solid #000000; */
+
 }
 
 .appointment-item input {
-    background-color: transparent;
-    border: 2px solid #000000;
+    width: 120px;
+    height: 39px;
+    border: 2px solid black;
+    padding-left: 15px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
 }
 
 .appointment-item input:focus {
@@ -203,13 +233,37 @@ margin-bottom: 5px;
     border: 0px;
 }
 
+a.button {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .button-back {
     float: left;
 }
 
 .button-next {
     float: right;
+}
 
+.appointment-info {
+    font-size: 14px;
+}
+.appointment-form .button {
+    width: 100%;
+    position: relative;
+}
+
+.appointment-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 110px;
+    margin-bottom: 30px;
 }
 /* .button {
   font: inherit;
